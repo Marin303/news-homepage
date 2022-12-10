@@ -1,0 +1,114 @@
+html {
+    overflow-x: hidden;
+}
+header{
+    display: flex; 
+}
+h1 {
+   margin-left: 90px;
+}
+nav {
+    position: absolute;
+    right: 200px;    
+    
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+li {  
+    margin: 20px ;
+    cursor: pointer;
+}
+a:hover{
+    color:orange;
+   }
+
+section{
+    margin-left: 100px;
+}
+.right-sided {
+    width: 300px;
+    height: 500px;
+    margin-right: 200px;
+    background-color: black;
+    float: right; 
+}
+h2 {
+   font-size: 50px;
+   margin-top: 5px;
+}
+.description {
+    width: 350px;
+    margin-top: -200px;
+    margin-left: 400px;
+}
+.read-more{
+    width: 170px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 400px;
+    background-color: black;
+    color: white;
+    letter-spacing: 5px;  
+    cursor: pointer;
+}
+.read-more:hover {
+    background-color: orange;
+}
+.read-more:active{background-color:red;}
+
+footer {
+    margin: 50px;
+    margin-left: 90px;
+    display: inline-grid;
+    grid-template-columns: 150px 150px 150px;
+    column-gap: 250px;
+   
+}
+.PC , .laptop , .gaming {
+    display: inline-flex; 
+}
+#zero1 , #zero2 , #zero3{
+   color:wheat;
+   margin-top: 5px;
+   margin-left: 15px;
+}
+.web {
+   height: 20px;
+   width: 100px;
+   margin-top: 70px;
+   margin-left: -50px;
+   cursor: pointer;
+   display: inline-grid;
+   grid-template-columns: 190px 190px 190px;
+    
+}
+.web:hover {
+    color: orange;
+}
+.sub{
+    margin-top: 120px;
+    margin-left: -100px;
+    display: inline-grid;
+    grid-template-columns: 190px 190px 190px;
+}
+.rightH2 {
+    color: orange;
+    margin: 20px;
+}
+.div-title {
+color: white;
+margin: 20px;
+cursor: pointer;
+}
+.div-title:hover {
+    color: orange;
+}
+.sub-title {
+color: rgb(232, 218, 218);
+margin: 20px;
+}
+hr {
+   border: 1px solid dimgray;
+}
